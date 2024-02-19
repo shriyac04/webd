@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:200px;
+            height:200px;
+            background-color: blueviolet;
+            padding:2em;
+           /* transform:translate(30px,30px);*/
+         /*transform:rotate(-45deg);*/
+        /* transform:scale(0.5,0.5);*/
+        transform:rotateZ(180deg);
+
+        }
+        div:hover{
+            width:400px;
+            transition-property: width;
+            transition-duration: 0.3s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+transition: width 0.7s ,color:0.7s,background-color 0.7s;
+        }
+        div:hover{
+            width:400px;
+            color:white;
+            background-color: wheat;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod aspernatur odit, quos porro maxime expedita magnam tempore eligendi ipsa libero officiis numquam optio ullam nobis itaque, veniam eius, velit aliquam!</div>
+    
+</body>
+</html>

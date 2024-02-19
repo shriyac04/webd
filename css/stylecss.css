@@ -1,0 +1,12 @@
+p{
+    color:green !important; 
+    /* this section will be implemented as it is specified as important */
+    text-shadow:2px 2px 5px green
+ } 
+  #shrek{
+    color:grey;
+ }
+ 
+ .sh{
+    color:pink;
+ }

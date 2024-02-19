@@ -1,0 +1,14 @@
+.container{
+    border:1px solid black;
+    background-color: blueviolet;
+    height:300px;
+    width: 309px;
+}
+.box{
+    border: 1px solid black;
+    background-color: blue;
+    color: aliceblue;
+    --dark-red:#853a3a;
+    color: var(--dark-red) ;
+
+}

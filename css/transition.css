@@ -1,0 +1,23 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: turquoise;
+    border: 1px solid black;
+}
+.box{
+    border: 2px solid salmon;
+    background-color: antiquewhite;
+    height: 300px;
+    width: 300px;
+    /* 
+    transition: 0.2s;
+    transition: all 1s;
+    transition-delay: 0.5s;
+*/
+transition: transform 5s ease-out 0.3s;
+}
+.box:hover{
+    /* background-color: tomato; */
+    transform: scale(1.5) translateX(300px) rotate(360deg);
+
+}
